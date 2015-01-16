@@ -131,5 +131,10 @@ public class WebController {
         modelAndView.addObject("users", listAllUsers());
         return modelAndView;
     }
+    
+    @RequestMapping(value = "/cs480/home/newHTTPAPI.AnthonyHaddox", method = RequestMethod.GET)
+    String haddoxAPICall()	{
+    	return "Newly created API call by Anthony Haddox.";
+    }
 
 }
