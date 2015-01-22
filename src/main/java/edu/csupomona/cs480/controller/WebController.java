@@ -136,5 +136,10 @@ public class WebController {
     String haddoxAPICall()	{
     	return "Newly created API call by Anthony Haddox.";
     }
+    
+    @RequestMapping(value = "/cs480/home/newHTTPAPI.MichelleChuong", method = RequestMethod.GET)
+    String chuongAPICall()  {
+        return "Newly created API call by Michelle Chuong.";
+    }
 
 }
